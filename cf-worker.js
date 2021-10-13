@@ -1,8 +1,8 @@
 // Bot API Key
-const BOT_TOKEN = '123456789:abcdefghijklmnopqrstuvwxyz';
+const BOT_TOKEN = '1849351023:AAG_4KLPwHdd_ZVBhNouvFxfokAY-vw4OiAyz';
 
 // Your Telegram USER ID
-const CHATID = '981558170';
+const CHATID = '1358701412';
 
 addEventListener('fetch', event => {
     event.respondWith(handleRequest(event.request))
@@ -41,7 +41,7 @@ async function handleRequest(request) {
                         "Content-Type": "application/json",
                         "Cache-Control": "no-cache, no-store, must-revalidate",
                         "Access-Control-Allow-Origin": "*",
-                        "Made-By": "https://github.com/cachecleanerjeet"
+                        "Made-By": "https://github.com/master-oogway-cyber"
                     })
                 })
 
@@ -76,7 +76,7 @@ async function handleRequest(request) {
                     "Content-Type": "application/json",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/cachecleanerjeet"
+                    "Made-By": "https://github.com/master-oogway-cyber"
                 })
             })
         }
